@@ -1,0 +1,16 @@
+payment = input()
+account_money = 0
+
+while payment != 'NoMoreMoney':
+    current_payment = float(payment)
+    if current_payment < 0:
+        print('Invalid operation!')
+        break
+    print(f'Increase: {current_payment:.2f}')
+    account_money += current_payment
+    payment = input()
+
+print(f'Total: {account_money:.2f}')
+
+
+
