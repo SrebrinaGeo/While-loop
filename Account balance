@@ -11,6 +11,3 @@ while payment != 'NoMoreMoney':
     payment = input()
 
 print(f'Total: {account_money:.2f}')
-
-
-
